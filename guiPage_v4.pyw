@@ -49,8 +49,7 @@ check _v2 code.
 class HRWin(Frame):
     def __init__(self, parent = None):
         self.parent = parent
-        self.parent.title('Nailsway, 1376 1st Ave, New York, NY 10021.      Tel: 212-737-3030,   \
-        Fax: 646-349-2958,      email: nailsway@outlook.com')
+        self.parent.title('Employee Time & Payroll Management System:')
         self.parent.minsize(width = 1260, height = 800)
         self.parent.resizable(width = FALSE, height = FALSE)
         Frame.__init__(self, parent)
